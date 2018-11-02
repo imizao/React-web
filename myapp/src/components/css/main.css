@@ -1,0 +1,126 @@
+.index-box{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: #e3e2e2;
+}
+.y-out-box{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 330px;
+  height: 330px;
+  background: url('../img/out.png') no-repeat 1px 1px;
+  background-size: 100%;
+  animation:spinoffPulse 20s infinite linear;
+}
+.y-int-box{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 267px;
+  height: 267px;
+  background: url('../img/int.png') no-repeat;
+  background-size: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.y-int-bg{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 270px;
+  height: 270px;
+  background: #db3333;
+  background-size: 100%;
+  border-radius: 50%;
+  z-index: 1;
+  animation:spinoffPulse 20s infinite linear;
+}
+.y-btn{
+  position:absolute;
+  left: 50%;
+  bottom: 20vh;
+  width: 200px;
+  height: 48px;
+  background: #db3333;
+  border-radius: 10px;
+  transform: translate(-50%);
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+  font-size: 20px;
+  letter-spacing:8px;
+  text-indent: 4px;
+}
+@-moz-keyframes spinPulse {
+	0% {
+		-moz-transform: rotate(160deg) ;
+		opacity: 0;
+		box-shadow: 0 0 1px #505050;
+	}
+
+	30% {
+		-moz-transform: rotate(120deg);
+		opacity: 1;
+	}
+
+	100% {
+		-moz-transform: rotate(-320deg);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes spinPulse {
+	0% {
+		-webkit-transform: rotate(160deg);
+		opacity: 0;
+		box-shadow: 0 0 1px #505050;
+	}
+
+	30% {
+		-webkit-transform: rotate(120deg);
+		opacity: 1;
+	}
+
+	100% {
+		-webkit-transform: rotate(-320deg);
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes spinoffPulse {
+	0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+    opacity:.4;
+	}
+  50% {
+    opacity:1;
+  }
+	100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+    opacity:.4;
+	}
+}
+
+@-ms-keyframes spinPulse {
+	0% {
+		-ms-transform: rotate(160deg);
+		opacity: 0;
+		box-shadow: 0 0 1px #505050;
+	}
+
+	30% {
+		-ms-transform: rotate(120deg);
+		opacity: 1;
+	}
+
+	100% {
+		-ms-transform: rotate(-320deg);
+		opacity: 0;
+	}
+}

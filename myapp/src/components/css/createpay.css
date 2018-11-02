@@ -1,0 +1,87 @@
+.y-pay-box{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.y-pay-text{
+  position: absolute;
+  left: 50%;
+  top: 10vh;
+  width: 70%;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background: #db3333;
+  color: #fff;
+  border-radius: 10px;
+  transform: translate(-50%);
+  letter-spacing: 2px;
+}
+.y-pay-num{
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 205px;
+  height: 190px;
+  background: url('../img/pay-img.png') no-repeat;
+  background-size: 100%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 190px;
+  font-size: 70px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-indent: 1px;
+}
+.y-reduce{
+  position: absolute;
+  left: 8%;
+  top: 37%;
+  width: 52px;
+  height: 52px;
+  background: url('../img/reduce.png') no-repeat;
+  background-size: 100%;
+}
+.y-add{
+  position: absolute;
+  right: 8%;
+  top: 37%;
+  width: 52px;
+  height: 52px;
+  background: url('../img/add.png') no-repeat;
+  background-size: 100%;
+}
+.y-money{
+  position: absolute;
+  left: 50%;
+  bottom: 34vh;
+  transform: translate(-50%);
+  width: 156px;
+  height: 41px;
+  border: 3px solid #db3333;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 41px;
+  color: #db3333;
+  font-size: 34px;
+}
+.y-btn{
+  position: absolute;
+  left: 50%;
+  bottom: 20vh;
+  width: 70%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  letter-spacing: 6px;
+  text-indent: 5px;
+  background: #db3333;
+  transform: translate(-50%);
+  border-radius: 10px;
+}
